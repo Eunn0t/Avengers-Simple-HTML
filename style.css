@@ -6,40 +6,50 @@ body {
     color: #fff;
 }
 
-/*FORMATAÇOES DE CABEÇALHO*/
-#logo {
+#container {
     border: 1px solid red;
-    float: left;
+}
+
+/*FORMATAÇÕES DE CABEÇALHO*/
+#header {
+    border: 1px solid red;
     font-family: Orbitron;
+    height: 120px;
+}
+
+#gamora {
     font-weight: 700;
-    font-size: 64px;
-    height: 90px;
-    margin: 20px 30px;
+    font-size: 80px;
+    margin: 8px 24px;
+    float: left;
 }
 
 #navbar {
-    border: 1px solid red;
-    font-family: Orbitron;
     float: right;
-    width: 720px;
-    margin: 20px 50px;
+    width: 600px;
+    margin: 40px 24px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: left;
-}
+/*FORMATAÇÕES DE MENU*/
+    ul {
+        list-style: none;
+        float: left;
+    }
 
-ul li {
-    float: left;
-}
+    ul li {
+        float: left;
+    }
 
-ul a {
-    display: block;
-    padding: 0 2em;
-    line-height: 2em;
-    text-decoration: none;
-    color: #fff;
-}
+    ul a {
+        display: block;
+        padding: 0 3.5em;
+        line-height: 2em;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    ul a:hover {
+        color: #c4c4c4;
+    }
+
+/*FORMATAÇOES DE CONTEUDO*/
