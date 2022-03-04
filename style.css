@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,700;1,100&display=swap');
 
 /*FORMATAÇOES GERAIS*/
 body {
-    background: #000fff;
+    background: #000;
     color: #fff;
 }
 
@@ -12,13 +13,11 @@ body {
 
 /*FORMATAÇÕES DE CABEÇALHO*/
 #header {
-    border: 1px solid yellow;
     font-family: Orbitron;
     height: 110px;
 }
 
 #gamora {
-    border: 1px solid red;
     font-weight: 700;
     font-size: 80px;
     margin: 8px 24px;
@@ -26,7 +25,6 @@ body {
 }
 
 #navbar {
-    border: 1px solid red;
     float: right;
     width: 600px;
     margin: 30px 24px 10px auto;
@@ -57,12 +55,12 @@ body {
 /*FORMATAÇOES DE CONTEUDO*/
 
 #contents{
-    border: 1px solid red;
     height: 630px;
+    font-family: Saira;
+    font-size: 22px;
 }
 
 #img {
-    border: 1px solid yellow;
     width: 800px;
     height: 600px;
     position: absolute;
@@ -70,8 +68,13 @@ body {
 }
 
 #resume {
-    border: 1px solid green;
+
     float: right;
     width: 400px;
     height: 600px;
+    margin: 0 120px;
+    padding: 50px 5px;
+    position: relative;
 }
+
+/*FORMATAÇÃO DE RODAPÉ*/
