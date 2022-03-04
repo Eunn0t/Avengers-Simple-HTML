@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/*FORMATAÇOES GERAIS*/
 body {
     background: #000;
+    color: #fff;
+}
+
+/*FORMATAÇOES DE CABEÇALHO*/
+#logo {
+    border: 1px solid red;
+    float: left;
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 64px;
+    height: 90px;
+    margin: 20px 30px;
+}
+
+#navbar {
+    border: 1px solid red;
+    font-family: Orbitron;
+    float: right;
+    width: 720px;
+    margin: 20px 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
 }
