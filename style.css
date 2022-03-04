@@ -7,9 +7,6 @@ body {
     color: #fff;
 }
 
-#container {
-    border: 1px solid red;
-}
 
 /*FORMATAÇÕES DE CABEÇALHO*/
 #header {
@@ -68,13 +65,31 @@ body {
 }
 
 #resume {
-
     float: right;
     width: 400px;
-    height: 600px;
+    height: 500px;
     margin: 0 120px;
-    padding: 50px 5px;
+    padding: 50px 0 0 5px;
     position: relative;
 }
 
 /*FORMATAÇÃO DE RODAPÉ*/
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#footer p {
+    font-family: Saira;
+}
+
+#footer a {
+    font-family: Orbitron;
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer a:hover {
+    color: #c4c4c4;
+}
