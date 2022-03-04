@@ -2,7 +2,7 @@
 
 /*FORMATAÇOES GERAIS*/
 body {
-    background: #000;
+    background: #000fff;
     color: #fff;
 }
 
@@ -12,12 +12,13 @@ body {
 
 /*FORMATAÇÕES DE CABEÇALHO*/
 #header {
-    border: 1px solid red;
+    border: 1px solid yellow;
     font-family: Orbitron;
-    height: 120px;
+    height: 110px;
 }
 
 #gamora {
+    border: 1px solid red;
     font-weight: 700;
     font-size: 80px;
     margin: 8px 24px;
@@ -25,9 +26,10 @@ body {
 }
 
 #navbar {
+    border: 1px solid red;
     float: right;
     width: 600px;
-    margin: 40px 24px;
+    margin: 30px 24px 10px auto;
 }
 
 /*FORMATAÇÕES DE MENU*/
@@ -53,3 +55,23 @@ body {
     }
 
 /*FORMATAÇOES DE CONTEUDO*/
+
+#contents{
+    border: 1px solid red;
+    height: 630px;
+}
+
+#img {
+    border: 1px solid yellow;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    margin: 0px 23px;
+}
+
+#resume {
+    border: 1px solid green;
+    float: right;
+    width: 400px;
+    height: 600px;
+}
